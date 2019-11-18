@@ -1,0 +1,12 @@
+{
+  "name": "@j0nz/reedacted",
+  "version": "1.0.0",
+  "description": "Yet another js framework. Inspired by React & Vue.",
+  "main": "Reedacted.js",
+  "author": "Reed Jones <reedjones@reedjones.com>",
+  "license": "ISC",
+  "files": [
+    "Reedacted.js",
+    "Reaction.js"
+  ]
+}

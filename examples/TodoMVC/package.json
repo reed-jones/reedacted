@@ -1,0 +1,22 @@
+{
+  "name": "Reedacted-Test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "build": "parcel build src/index.html --out-dir public",
+    "dev": "parcel src/index.html --out-dir public",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-transform-react-jsx": "^7.7.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "@j0nz/reedacted": "^1.0.0",
+    "director": "^1.2.8",
+    "todomvc-app-css": "^2.3.0",
+    "todomvc-common": "^1.0.5"
+  }
+}

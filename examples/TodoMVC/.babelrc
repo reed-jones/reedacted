@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    ["@babel/plugin-transform-react-jsx", {
+      "pragma": "createElement" // default pragma is React.createElement
+      // "pragmaFrag": "Fragment", // default is React.Fragment (not yet implemented)
+      // "throwIfNamespace": false // defaults to true (for on:event style props, not yet implemented, mey never be)
+    }]
+  ]
+}
